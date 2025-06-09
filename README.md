@@ -60,30 +60,25 @@ Explore Power BI Dashboard:
 
 Open the Power BI dashboard to analyze trends by weather, road type, lighting conditions, and time of day.
 
-## Model Training
-Data Cleaning:
+## ## Model Training
 
-Missing values and outliers were handled using imputation and transformation methods.
+- **Data Cleaning**  
+  Missing values and outliers were handled using imputation and transformation methods.
 
-Addressing Class Imbalance:
+- **Addressing Class Imbalance**  
+  The class imbalance was tackled using various sampling strategies to ensure balanced training.
 
-The class imbalance was tackled using various sampling strategies to ensure balanced training.
+- **Trained Models**  
+  - Random Forest
+  - XGBoost
+  - K-Nearest Neighbors (KNN)
 
-Trained Models:
+- **Hyperparameter Tuning**  
+  Performed hyperparameter tuning to achieve the best model performance.
 
-Random Forest
+- **Model Evaluation**  
+  Evaluated the models using accuracy, F1-score, and confusion matrix.
 
-XGBoost
-
-K-Nearest Neighbors (KNN)
-
-Hyperparameter Tuning:
-
-Performed hyperparameter tuning to achieve the best model performance.
-
-Model Evaluation:
-
-Evaluated the models using accuracy, F1-score, and confusion matrix.
 
 
 
