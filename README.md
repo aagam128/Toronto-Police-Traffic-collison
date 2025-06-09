@@ -40,27 +40,52 @@ This project provides insights into traffic collision patterns using Ontario's p
 ---
 
 ## Setup and Installation
-Prerequisites
-Python 3.8+
-Angular CLI
-Power BI Desktop (optional for dashboard)
+
+### Prerequisites
+- **Python 3.8+**
+- **Angular CLI**
+- **Power BI Desktop** (Optional, only required for dashboard visualization)
+
 
 ## Usage 
-sage
-Run the notebook traffic-collision.ipynb to train and evaluate models
-Launch the Angular frontend to input traffic parameters and receive fatality prediction
-Open Power BI dashboard to explore trends by weather, road type, light conditions, and time
+Run the Notebook:
+
+Open the traffic-collision.ipynb notebook to train and evaluate the models.
+
+Launch the Angular Frontend:
+
+Use the Angular frontend to input traffic parameters and receive fatality predictions.
+
+Explore Power BI Dashboard:
+
+Open the Power BI dashboard to analyze trends by weather, road type, lighting conditions, and time of day.
 
 ## Model Training
-Model Training
-Handled missing values and outliers using imputation and transformation
-Addressed class imbalance through sampling strategies
-Trained multiple classification models:
+Data Cleaning:
+
+Missing values and outliers were handled using imputation and transformation methods.
+
+Addressing Class Imbalance:
+
+The class imbalance was tackled using various sampling strategies to ensure balanced training.
+
+Trained Models:
+
 Random Forest
+
 XGBoost
+
 K-Nearest Neighbors (KNN)
-Performed hyperparameter tuning for best performance
-Evaluated with metrics like accuracy, F1-score, and confusion matrix
+
+Hyperparameter Tuning:
+
+Performed hyperparameter tuning to achieve the best model performance.
+
+Model Evaluation:
+
+Evaluated the models using accuracy, F1-score, and confusion matrix.
+
+
 
 ## Power Bi 
 Visualization Dashboard
