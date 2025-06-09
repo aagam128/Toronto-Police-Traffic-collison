@@ -60,7 +60,7 @@ Explore Power BI Dashboard:
 
 Open the Power BI dashboard to analyze trends by weather, road type, lighting conditions, and time of day.
 
-## ## Model Training
+## Model Training
 
 - **Data Cleaning**  
   Missing values and outliers were handled using imputation and transformation methods.
